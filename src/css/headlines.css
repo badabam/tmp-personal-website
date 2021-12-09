@@ -1,0 +1,21 @@
+.headline {
+  color: blueviolet;
+  background-color: aliceblue;
+  font-size: 3em;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 350px) {
+  .headline {
+    font-size: 1.5em;
+  }
+}
+
+h3 {
+  color: blueviolet;
+  text-align: center;
+}

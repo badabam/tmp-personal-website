@@ -1,0 +1,18 @@
+button:hover {
+  background-color: pink;
+}
+
+button {
+  background-color: blueviolet;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 350px) {
+  button {
+    padding: 10px;
+  }
+}

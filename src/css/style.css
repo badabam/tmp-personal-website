@@ -1,0 +1,14 @@
+@import "base.css";
+@import "details.css";
+@import "headlines.css";
+@import "nav.css";
+@import "grid.css";
+@import "button.css";
+
+.opener {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

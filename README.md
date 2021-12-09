@@ -1,2 +1,2 @@
-# tmp-personal-website
+# Yngve-Jentz-Website
 Created with CodeSandbox

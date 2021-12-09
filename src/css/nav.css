@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  background-color: aliceblue;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 350px) {
+  header {
+    padding: 10px;
+  }
+}
+
+.navlink {
+  float: right;
+  display: block;
+  padding: 30px;
+  background-color: blueviolet;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  align-content: right;
+  list-style-type: non;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media (max-width: 350px) {
+  .navlink {
+    padding: 10px;
+    font-size: 1.5em;
+  }
+}
+
+.navlink:hover {
+  background-color: pink;
+}
